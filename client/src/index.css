@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: white
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  height: auto;
+}
+
+/* .main-card {
+  width: 325px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px
+} */
+
+.cardMain:hover {
+  /* color: rgb(255, 0, 0); */
+  cursor: pointer;
+  box-shadow: 6px 4px 5px rgb(81, 85, 81);
+  transition: 0.4s;
+
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.masjid-content {
+  font-family: serif;
+  color: black;
+  margin: 4px;
+  padding: 3px 14px;
+}
+
+#main-title {
+  margin-top: 25px
+}
+
+#searchbar {
+  margin-top: 40px;
+
+}
+
+
+/* Background Image - Makkah Masjid */
+
+
+
+/* .button{
+  align-items: end;
+} */
